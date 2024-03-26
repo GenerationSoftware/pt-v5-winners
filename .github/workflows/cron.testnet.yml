@@ -42,7 +42,7 @@ jobs:
       # 1. Install
       - name: Install PoolTogether V5 CLI
         run: |
-          npm install -g @generationsoftware/pt-v5-cli@1.0.8
+          npm install -g @generationsoftware/pt-v5-cli@1.0.9
           echo "$(npm -g bin)" >> $GITHUB_PATH
           
       # 2. Compute JSON input files (vault accounts)
@@ -84,6 +84,19 @@ jobs:
             echo "Processing: ${i}"
             node index.js ${i} ../winners/${i}
           done
+
+      # 6. Concat winner output files into 1 winners.json file
+      - name: ls test
+        working-directory: ./winners
+        run: |
+          ls -al
+
+      - name: Concat Winner Files
+        uses: chuckbergeron/executable-wrapper@f94b435740d6b958c2d7eb76c77657e761819cfe
+        continue-on-error: true
+        with:
+          working-directory: ./winners
+          run_command: ptv5 utils concatWinners -o ./vaultAccounts -p 0xe32e5E1c5f0c80bD26Def2d0EA5008C107000d6A -c 10
 
       # 6. Commit
       - name: Commit Optimism
