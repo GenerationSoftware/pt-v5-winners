@@ -19,25 +19,5 @@
     "0x175c4f84f41bd3dc37a42d8260f57bc5475e9753",
     "0xa9c937a0d1d22ad79099aea10efa62a270dfc22c"
   ],
-  "winners": [
-    {
-      "user": "0x38920daff3cbb1f41d2f89c1dc94400d12f730df",
-      "prizes": {
-        "5": [
-          300,
-          368,
-          570
-        ]
-      }
-    },
-    {
-      "user": "0x3c112e20141b65041c252a68a611ef145f58b7bc",
-      "prizes": {
-        "5": [
-          876,
-          1008
-        ]
-      }
-    }
-  ]
+  "winners": []
 }
