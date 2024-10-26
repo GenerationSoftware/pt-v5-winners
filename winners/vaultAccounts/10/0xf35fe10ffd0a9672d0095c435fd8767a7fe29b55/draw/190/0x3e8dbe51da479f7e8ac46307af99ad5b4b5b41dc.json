@@ -325,18 +325,18 @@
       }
     },
     {
-      "user": "0xc4eaf72bc568d82bd82e7a1c1c0d0fc536984dc7",
-      "prizes": {
-        "4": [
-          75
-        ]
-      }
-    },
-    {
       "user": "0xc7f7fdeb17fbc0c35a96221286f54fa022251ffc",
       "prizes": {
         "3": [
           20
+        ]
+      }
+    },
+    {
+      "user": "0xc4eaf72bc568d82bd82e7a1c1c0d0fc536984dc7",
+      "prizes": {
+        "4": [
+          75
         ]
       }
     }
