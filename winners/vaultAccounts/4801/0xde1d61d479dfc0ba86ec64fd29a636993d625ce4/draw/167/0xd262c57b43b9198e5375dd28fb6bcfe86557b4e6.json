@@ -188,6 +188,108 @@
   ],
   "winners": [
     {
+      "user": "0x95fbeeb2b6ef854119643348825aa0f987c53df0",
+      "prizes": {
+        "3": [
+          8
+        ]
+      }
+    },
+    {
+      "user": "0x46c1ca4e046cb144d71424f74715fb22bee6019f",
+      "prizes": {
+        "3": [
+          49
+        ]
+      }
+    },
+    {
+      "user": "0x01740229795c3bec8e42a3bbfdf3fb272ef3ac95",
+      "prizes": {
+        "3": [
+          62
+        ]
+      }
+    },
+    {
+      "user": "0x341c9efc49bfaa09a27fd4ed16322ac94992124e",
+      "prizes": {
+        "3": [
+          47
+        ]
+      }
+    },
+    {
+      "user": "0x83628287332978fcb9bdee63f8a9d10d74256f5a",
+      "prizes": {
+        "3": [
+          46
+        ]
+      }
+    },
+    {
+      "user": "0xe9c05626e1603a6b9098f21480c1714f8ad472f1",
+      "prizes": {
+        "4": [
+          60
+        ]
+      }
+    },
+    {
+      "user": "0xe995f260142695df7ead6c0a254e96b524fb39e5",
+      "prizes": {
+        "4": [
+          112
+        ],
+        "5": [
+          473
+        ]
+      }
+    },
+    {
+      "user": "0x9cdc1d1a19c34f24586864b9824724af916de33d",
+      "prizes": {
+        "4": [
+          106
+        ]
+      }
+    },
+    {
+      "user": "0xae261f1e5deb62a2eee70baf757fdfb0ceb814d5",
+      "prizes": {
+        "4": [
+          47
+        ]
+      }
+    },
+    {
+      "user": "0x22550a0ccbc7c5c3b6a4550134e221fbc1ac5be6",
+      "prizes": {
+        "4": [
+          96
+        ]
+      }
+    },
+    {
+      "user": "0x7ef5f6d4f27678d85767144fcdfeca7743cfc4fc",
+      "prizes": {
+        "4": [
+          139
+        ]
+      }
+    },
+    {
+      "user": "0xabf9585aa0ba7a14c2d1f88eb3c5960c750a1dc3",
+      "prizes": {
+        "4": [
+          92
+        ],
+        "5": [
+          643
+        ]
+      }
+    },
+    {
       "user": "0xd68baf422a2a0085f00c5eeabc16ff1218d5f8d2",
       "prizes": {
         "5": [
@@ -248,17 +350,6 @@
       "prizes": {
         "5": [
           764
-        ]
-      }
-    },
-    {
-      "user": "0xe995f260142695df7ead6c0a254e96b524fb39e5",
-      "prizes": {
-        "4": [
-          112
-        ],
-        "5": [
-          473
         ]
       }
     },
@@ -367,17 +458,6 @@
       }
     },
     {
-      "user": "0xabf9585aa0ba7a14c2d1f88eb3c5960c750a1dc3",
-      "prizes": {
-        "4": [
-          92
-        ],
-        "5": [
-          643
-        ]
-      }
-    },
-    {
       "user": "0x2db27dc3667702ebe9ace5d2425823f600aa4f5d",
       "prizes": {
         "5": [
@@ -416,86 +496,6 @@
       "prizes": {
         "5": [
           162
-        ]
-      }
-    },
-    {
-      "user": "0x95fbeeb2b6ef854119643348825aa0f987c53df0",
-      "prizes": {
-        "3": [
-          8
-        ]
-      }
-    },
-    {
-      "user": "0x46c1ca4e046cb144d71424f74715fb22bee6019f",
-      "prizes": {
-        "3": [
-          49
-        ]
-      }
-    },
-    {
-      "user": "0x01740229795c3bec8e42a3bbfdf3fb272ef3ac95",
-      "prizes": {
-        "3": [
-          62
-        ]
-      }
-    },
-    {
-      "user": "0x341c9efc49bfaa09a27fd4ed16322ac94992124e",
-      "prizes": {
-        "3": [
-          47
-        ]
-      }
-    },
-    {
-      "user": "0x83628287332978fcb9bdee63f8a9d10d74256f5a",
-      "prizes": {
-        "3": [
-          46
-        ]
-      }
-    },
-    {
-      "user": "0xe9c05626e1603a6b9098f21480c1714f8ad472f1",
-      "prizes": {
-        "4": [
-          60
-        ]
-      }
-    },
-    {
-      "user": "0x9cdc1d1a19c34f24586864b9824724af916de33d",
-      "prizes": {
-        "4": [
-          106
-        ]
-      }
-    },
-    {
-      "user": "0xae261f1e5deb62a2eee70baf757fdfb0ceb814d5",
-      "prizes": {
-        "4": [
-          47
-        ]
-      }
-    },
-    {
-      "user": "0x22550a0ccbc7c5c3b6a4550134e221fbc1ac5be6",
-      "prizes": {
-        "4": [
-          96
-        ]
-      }
-    },
-    {
-      "user": "0x7ef5f6d4f27678d85767144fcdfeca7743cfc4fc",
-      "prizes": {
-        "4": [
-          139
         ]
       }
     }
