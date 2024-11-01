@@ -184,18 +184,18 @@
       }
     },
     {
-      "user": "0x0788305e71db160dac550c7c131f231c94dd4c06",
-      "prizes": {
-        "2": [
-          6
-        ]
-      }
-    },
-    {
       "user": "0xe9dd7c08c47c5ba09da5daaaedcd5b181a8e7c27",
       "prizes": {
         "1": [
           0
+        ]
+      }
+    },
+    {
+      "user": "0x0788305e71db160dac550c7c131f231c94dd4c06",
+      "prizes": {
+        "2": [
+          6
         ]
       }
     }
