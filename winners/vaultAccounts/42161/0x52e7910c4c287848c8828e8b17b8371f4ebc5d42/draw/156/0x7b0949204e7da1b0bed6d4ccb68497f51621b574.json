@@ -185,18 +185,18 @@
       }
     },
     {
-      "user": "0x233998c7a34f26ee25f6299ecf8e26c0ec9e62e4",
-      "prizes": {
-        "1": [
-          2
-        ]
-      }
-    },
-    {
       "user": "0x95bd75d85c9e9f205d3d6edf3496f8b6864090ab",
       "prizes": {
         "2": [
           14
+        ]
+      }
+    },
+    {
+      "user": "0x233998c7a34f26ee25f6299ecf8e26c0ec9e62e4",
+      "prizes": {
+        "1": [
+          2
         ]
       }
     }
