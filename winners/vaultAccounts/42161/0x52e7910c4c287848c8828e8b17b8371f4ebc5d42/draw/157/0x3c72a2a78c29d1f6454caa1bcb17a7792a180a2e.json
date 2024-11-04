@@ -150,18 +150,18 @@
       }
     },
     {
-      "user": "0xdd34bdbcd129bbd69c0c5052072159b76e61aef7",
-      "prizes": {
-        "2": [
-          5
-        ]
-      }
-    },
-    {
       "user": "0x0f40bebab341da2b2542928bb1ec79b1777c1cea",
       "prizes": {
         "1": [
           2
+        ]
+      }
+    },
+    {
+      "user": "0xdd34bdbcd129bbd69c0c5052072159b76e61aef7",
+      "prizes": {
+        "2": [
+          5
         ]
       }
     }
