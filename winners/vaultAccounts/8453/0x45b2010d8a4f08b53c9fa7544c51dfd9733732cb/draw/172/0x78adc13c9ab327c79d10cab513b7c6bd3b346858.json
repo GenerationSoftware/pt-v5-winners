@@ -1,0 +1,67 @@
+{
+  "chainId": 8453,
+  "prizePoolAddress": "0x45b2010d8A4f08b53c9fa7544C51dFd9733732cb",
+  "vaultAddress": "0x78adc13c9ab327c79d10cab513b7c6bd3b346858",
+  "userAddresses": [
+    "0x4ac381e9eade70a2d20a3cb26564cad17bd785a4",
+    "0x224e69025a2f705c8f31efb6694398f8fd09ac5c",
+    "0x2b09b2e0a80cdcc9adc2e06d36ab98dfc7e17b36",
+    "0xc761b573e88bfc52fe360d0ecdada08b52b5cfdd",
+    "0x38920daff3cbb1f41d2f89c1dc94400d12f730df",
+    "0x8452f039e833b68ef48fe137d57854fc1c2e3337",
+    "0xf9a3856b5368f60f2837c797a993f46c6ea7117d",
+    "0x30f1c3e205c116552919246696f7cc722526336f",
+    "0x95fe0483d867867bec3916dab0ba58b2827501cb",
+    "0x61b5227a5104fa6c255fdfb852cc936c34dc863f",
+    "0xbfb7e6c7f2a431bc840ed9293a92702aaeb483d5",
+    "0x815136b59f60165813eb2c025e12520ee3949d42",
+    "0x8832bccd4f36b747700c876d9549413f19b0173e",
+    "0x8ff47879d9ee072b593604b8b3009577ff7d6809",
+    "0xf80a7327ced2d6aba7246e0de1383ddb57fd4475",
+    "0x21c3f4eb52325b3963cc92117b4e52084fc77e62",
+    "0x3c112e20141b65041c252a68a611ef145f58b7bc",
+    "0x42b2ef99646724cec443373bb5dd4c4408b2672e",
+    "0xa02befebe79a6a4244cad29b06c4c0582eac1f84",
+    "0x418430c3dbd1e6ec43dd002bd3c8aff82843bd75",
+    "0x6f19da51d488926c007b9ebaa5968291a2ec6a63",
+    "0x07c5917860695a351de0bf7c200367619b5ffb68",
+    "0x175c4f84f41bd3dc37a42d8260f57bc5475e9753",
+    "0x9342e2ac6dd4a907948e91e80d2734ecac1d70ec",
+    "0xa9c937a0d1d22ad79099aea10efa62a270dfc22c",
+    "0x797bc498edee4357a16a1054db0323cbd04c84c3",
+    "0x4d864b0ddec2a861506c8baa676e2d99a4c30a84"
+  ],
+  "winners": [
+    {
+      "user": "0x3c112e20141b65041c252a68a611ef145f58b7bc",
+      "prizes": {
+        "4": [
+          30,
+          79
+        ],
+        "5": [
+          116,
+          405,
+          892,
+          993
+        ]
+      }
+    },
+    {
+      "user": "0x175c4f84f41bd3dc37a42d8260f57bc5475e9753",
+      "prizes": {
+        "5": [
+          827
+        ]
+      }
+    },
+    {
+      "user": "0x42b2ef99646724cec443373bb5dd4c4408b2672e",
+      "prizes": {
+        "4": [
+          42
+        ]
+      }
+    }
+  ]
+}
