@@ -73,6 +73,26 @@
   ],
   "winners": [
     {
+      "user": "0x5db82f6695b099bd3acf5d7eb192d109284268ec",
+      "prizes": {
+        "3": [
+          25
+        ]
+      }
+    },
+    {
+      "user": "0xc1c79c6378e5a72895c8ea15fc6dd59ffddc8dee",
+      "prizes": {
+        "1": [
+          0
+        ],
+        "3": [
+          39,
+          55
+        ]
+      }
+    },
+    {
       "user": "0x15bbcf76110505d3be5a9eb10c63f57f66d20c40",
       "prizes": {
         "2": [
@@ -92,11 +112,30 @@
       }
     },
     {
-      "user": "0xe09c035a9751b594a6d0dc8a4ef9c1f1139ebad2",
+      "user": "0x95bd75d85c9e9f205d3d6edf3496f8b6864090ab",
       "prizes": {
-        "2": [
-          3,
-          9
+        "3": [
+          7
+        ]
+      }
+    },
+    {
+      "user": "0x57a482ea32c7f75a9c0734206f5bd4f9bcb38e12",
+      "prizes": {
+        "3": [
+          20
+        ]
+      }
+    },
+    {
+      "user": "0xcef6c9e9c93187c8f3378ed7bf452fa29962b097",
+      "prizes": {
+        "1": [
+          1
+        ],
+        "3": [
+          1,
+          55
         ]
       }
     },
@@ -127,50 +166,11 @@
       }
     },
     {
-      "user": "0x5db82f6695b099bd3acf5d7eb192d109284268ec",
+      "user": "0xe09c035a9751b594a6d0dc8a4ef9c1f1139ebad2",
       "prizes": {
-        "3": [
-          25
-        ]
-      }
-    },
-    {
-      "user": "0xc1c79c6378e5a72895c8ea15fc6dd59ffddc8dee",
-      "prizes": {
-        "1": [
-          0
-        ],
-        "3": [
-          39,
-          55
-        ]
-      }
-    },
-    {
-      "user": "0x95bd75d85c9e9f205d3d6edf3496f8b6864090ab",
-      "prizes": {
-        "3": [
-          7
-        ]
-      }
-    },
-    {
-      "user": "0x57a482ea32c7f75a9c0734206f5bd4f9bcb38e12",
-      "prizes": {
-        "3": [
-          20
-        ]
-      }
-    },
-    {
-      "user": "0xcef6c9e9c93187c8f3378ed7bf452fa29962b097",
-      "prizes": {
-        "1": [
-          1
-        ],
-        "3": [
-          1,
-          55
+        "2": [
+          3,
+          9
         ]
       }
     }
