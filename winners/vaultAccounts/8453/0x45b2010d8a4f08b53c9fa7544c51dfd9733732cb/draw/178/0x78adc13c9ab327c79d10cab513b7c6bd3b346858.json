@@ -54,18 +54,18 @@
       }
     },
     {
-      "user": "0x3c112e20141b65041c252a68a611ef145f58b7bc",
-      "prizes": {
-        "5": [
-          67
-        ]
-      }
-    },
-    {
       "user": "0x3bc1158e5bce8c10e5da0edfbb94b261eec46a76",
       "prizes": {
         "4": [
           0
+        ]
+      }
+    },
+    {
+      "user": "0x3c112e20141b65041c252a68a611ef145f58b7bc",
+      "prizes": {
+        "5": [
+          67
         ]
       }
     }
