@@ -7,18 +7,18 @@
   "0x5c03c5ed97dda6c2ae1b9a4e5b37af2656b60798": [],
   "0x77935f2c72b5eb814753a05921ae495aa283906b": [
     {
-      "user": "0xf672775e124E66f8cC3FB584ed739120d32bBaad",
-      "prizes": {
-        "1": [
-          2
-        ]
-      }
-    },
-    {
       "user": "0xC7a44a56c8f3Bf9364Ff46652Da023652C793e55",
       "prizes": {
         "2": [
           6
+        ]
+      }
+    },
+    {
+      "user": "0xf672775e124E66f8cC3FB584ed739120d32bBaad",
+      "prizes": {
+        "1": [
+          2
         ]
       }
     }
