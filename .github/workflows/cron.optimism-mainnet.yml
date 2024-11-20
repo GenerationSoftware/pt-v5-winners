@@ -7,7 +7,7 @@ env:
   CHAIN_ID: 10
   PRIZE_POOL_ADDRESS: "0xf35fe10ffd0a9672d0095c435fd8767a7fe29b55"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
-  CLI_VERSION: "2.0.3"
+  CLI_VERSION: "2.0.5"
   JSON_RPC_URL: ${{ secrets.OPTIMISM_MAINNET_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/396f04daedc5a38935460ddf47d2f10e9ac1fec6/deployments/optimism/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-optimism/version/latest?source=pooltogether'
