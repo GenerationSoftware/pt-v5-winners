@@ -7,7 +7,7 @@ env:
   CHAIN_ID: 42161
   PRIZE_POOL_ADDRESS: "0x52e7910c4c287848c8828e8b17b8371f4ebc5d42"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
-  CLI_VERSION: "2.0.0"
+  CLI_VERSION: "2.0.3"
   JSON_RPC_URL: ${{ secrets.ARBITRUM_MAINNET_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/bc9e4b4c25a033ec3c1c2b89b62422399b7db2f6/deployments/arbitrum/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-arbitrum/version/latest'
