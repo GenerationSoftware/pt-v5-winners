@@ -7,7 +7,7 @@ env:
   CHAIN_ID: 100
   PRIZE_POOL_ADDRESS: "0x0c08c2999e1a14569554eddbcda9da5e1918120f"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
-  CLI_VERSION: "2.0.2"
+  CLI_VERSION: "2.0.3"
   JSON_RPC_URL: ${{ secrets.GNOSIS_MAINNET_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/196aa20f4a0b3e651d0504ffeb0e1b9a08c7ccb6/deployments/gnosis/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-gnosis/version/latest'

@@ -7,7 +7,7 @@ env:
   CHAIN_ID: 10200
   PRIZE_POOL_ADDRESS: "0x678b5a8b958e1582b2677dc21f7fdef4476d9bd7"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
-  CLI_VERSION: "2.0.2"
+  CLI_VERSION: "2.0.3"
   JSON_RPC_URL: ${{ secrets.GNOSIS_CHIADO_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-testnet/25f544537f232912bc2a266c0b2a621e6772dd07/deployments/gnosisChiado/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-gnosis-chiado/version/latest'

@@ -7,7 +7,7 @@ env:
   CHAIN_ID: 4801
   PRIZE_POOL_ADDRESS: "0xde1d61d479dfc0ba86ec64fd29a636993d625ce4"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
-  CLI_VERSION: "2.0.2"
+  CLI_VERSION: "2.0.3"
   JSON_RPC_URL: ${{ secrets.WORLD_SEPOLIA_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-testnet/82c266dc50264117bc82d48dacfff1172df2197b/deployments/worldSepolia/contracts.json'
   SUBGRAPH_URL: 'https://subgraph.satsuma-prod.com/632659a063b5/charless-team--719469/pt-v5-world-sepolia/api'

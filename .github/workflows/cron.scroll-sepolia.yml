@@ -7,7 +7,7 @@ env:
   CHAIN_ID: 534351
   PRIZE_POOL_ADDRESS: "0xfe2402c48cea2a8a115a1555129046c48a59f835"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
-  CLI_VERSION: "2.0.2"
+  CLI_VERSION: "2.0.3"
   JSON_RPC_URL: ${{ secrets.SCROLL_SEPOLIA_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-testnet/68c51277ed8196e27634ad8abd46ef99deeb251a/deployments/scrollSepolia/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-scroll-sepolia/version/latest'
