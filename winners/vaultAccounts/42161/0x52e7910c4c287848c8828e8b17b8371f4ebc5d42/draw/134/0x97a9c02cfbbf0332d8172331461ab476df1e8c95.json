@@ -1,0 +1,66 @@
+{
+  "chainId": 42161,
+  "prizePoolAddress": "0x52e7910c4c287848c8828e8b17b8371f4ebc5d42",
+  "vaultAddress": "0x97a9c02cfbbf0332d8172331461ab476df1e8c95",
+  "userAddresses": [
+    "0xb635272ace9e6f5412aade4529510b6d75617f17",
+    "0xa38445311ccd04a54183cdd347e793f4d548df3f",
+    "0xa09da1d479ed04d69b61ccb6377aa9c5c901d0e7",
+    "0xe48dd2a322a7ebfdaa9680fd2e8cec27cbb7a765",
+    "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
+    "0x69d6057698327df512837d46bb55be55f07ba4a2",
+    "0xe3eb2ea54f1c9a62bd694c58ebc097157e943bb1",
+    "0xcee050ba4c5dc4539e8932ee23493293c209cf10",
+    "0xb8f0b940aa61b2030ccfcef74f8bc92bf819cb7b",
+    "0x11451a541b1f9b6f02b857b82e7c03ac362f9067",
+    "0xf49f7bb6f4f50d272a0914a671895c4384696e5a",
+    "0x36f66448cdbde361d40a91ae0045fc80d5bc83d9",
+    "0x16d8f8674c3cf0a3cf4a4f6a732ee5976b9edbba",
+    "0xcc22f7f6a8296ed44f0f0e758374675120909177",
+    "0x5f3188b55e0d3320f2ba558fa9f365009998c401",
+    "0xe908c2d5613d24d49e376f19715c795db8e04f81",
+    "0x747a1b709a12274a35c7be8b37adea98d5b7bc98",
+    "0x85eb0651a6942be0fd5dd04c61dd776279d286c3",
+    "0x4a39341254a305b6a6eff215d49ae8460692fdcb",
+    "0xf80a7327ced2d6aba7246e0de1383ddb57fd4475",
+    "0x3994537274f3ff3eefc413e0d669b05d6446d46b",
+    "0xc1c79c6378e5a72895c8ea15fc6dd59ffddc8dee",
+    "0xb44b6442b731d9954819470f6f528aa3e65dff15",
+    "0x302efb6fd402336659c5e43ff05dbb19010daf6e",
+    "0x0e9b063789909565ceda1fba162474405a151e66",
+    "0x0b58857708a6f84e7ee04beaef069a7e6d1d4a0b",
+    "0x03000a0ecb1898040c26cd418570cd480775f0da"
+  ],
+  "winners": [
+    {
+      "user": "0x4a39341254a305b6a6eff215d49ae8460692fdcb",
+      "prizes": {
+        "1": [
+          0,
+          1
+        ],
+        "2": [
+          1,
+          2,
+          9,
+          12,
+          13
+        ],
+        "3": [
+          15,
+          39,
+          49,
+          60
+        ]
+      }
+    },
+    {
+      "user": "0xa38445311ccd04a54183cdd347e793f4d548df3f",
+      "prizes": {
+        "3": [
+          21
+        ]
+      }
+    }
+  ]
+}
