@@ -1,4 +1,4 @@
-name: CronJob - Base Sepolia
+name: CronJob - Arbitrum Sepolia
 on:
   schedule:
     - cron: "5 */6 * * *" # ie. 6:05am, 12:05pm, 6:05pm, etc.
@@ -33,7 +33,7 @@ jobs:
           node-version: ${{ matrix.node }}
       
       # -------------------------------------------------------- #
-      # Base Sepolia
+      # Arbitrum Sepolia
       # -------------------------------------------------------- #
       # 1. Install
       - name: Install PoolTogether V5 CLI
@@ -42,16 +42,16 @@ jobs:
           echo "$(npm -g bin)" >> $GITHUB_PATH
           
       # 2. Find depositors, winners, and output them for each vault to JSON files
-      - name: Base Sepolia - Compile Winners
-        id: compileWinnersBase
+      - name: Arbitrum Sepolia - Compile Winners
+        id: compileWinnersArbitrumSepolia
         uses: chuckbergeron/executable-wrapper@e19cd743c8f0c6af006f6a25bd6715c770569d72
         continue-on-error: true
         with:
           run_command: ptv5 utils compileWinners -o ./${{ env.OUTPUT_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }}
 
       # 3. Commit
-      - name: Commit Base Sepolia
-        if: steps.compileWinnersBase.outputs.runStatus == 'true'
+      - name: Commit Arbitrum Sepolia
+        if: steps.compileWinnersArbitrumSepolia.outputs.runStatus == 'true'
         continue-on-error: true
         run: |
           git config pull.rebase false
@@ -60,12 +60,12 @@ jobs:
           git pull
           ls
           git add ./${{ env.OUTPUT_DIRECTORY_NAME }}
-          git commit -m "Add testnet winner results for Base Sepolia draw #${{ steps.compileWinnersBase.outputs.drawId }}"
+          git commit -m "Add testnet winner results for Arbitrum Sepolia draw #${{ steps.compileWinnersArbitrumSepolia.outputs.drawId }}"
 
       # 4. Push
       - name: Push changes (if required)
         uses: ad-m/github-push-action@master
-        if: steps.compileWinnersBase.outputs.runStatus == 'true'
+        if: steps.compileWinnersArbitrumSepolia.outputs.runStatus == 'true'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}

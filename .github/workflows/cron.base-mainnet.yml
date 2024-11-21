@@ -10,7 +10,7 @@ env:
   CLI_VERSION: "2.0.5"
   JSON_RPC_URL: ${{ secrets.BASE_MAINNET_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/bc84c3f5e1d9703372ae7f9baf584bab42f47b27/deployments/base/contracts.json'
-  SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/41211/pt-v5-base/version/latest?source=pooltogether'
+  SUBGRAPH_URL: 'https://subgraph.satsuma-prod.com/g9-software-inc--666267/pt-v5-base/version/v0.0.1/api'
   NODE_OPTIONS: "--max_old_space_size=32768"
   DEBUG: true
   PRIZE_TIERS_TO_COMPUTE: 0,1,2,3,4,5
