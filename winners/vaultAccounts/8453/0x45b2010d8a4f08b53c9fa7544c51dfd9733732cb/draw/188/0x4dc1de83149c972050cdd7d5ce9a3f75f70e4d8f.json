@@ -6,5 +6,17 @@
     "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "0x4a3e6e66f8c32bc05a50879f872b1177a1573cdf"
   ],
-  "winners": []
+  "winners": [
+    {
+      "user": "0x4a3e6e66f8c32bc05a50879f872b1177a1573cdf",
+      "prizes": {
+        "4": [
+          149
+        ],
+        "5": [
+          212
+        ]
+      }
+    }
+  ]
 }
