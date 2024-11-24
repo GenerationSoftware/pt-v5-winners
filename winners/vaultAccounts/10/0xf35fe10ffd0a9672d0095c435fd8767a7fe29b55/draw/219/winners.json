@@ -2760,6 +2760,14 @@
   "0x934c51eedbd0d558ab1c171498271930b4716295": [],
   "0x9b4c0de59628c64b02d7ce86f21db9a579539d5a": [
     {
+      "user": "0x0bda59997765a113bea8ca9cba319b35fb287fc8",
+      "prizes": {
+        "4": [
+          75
+        ]
+      }
+    },
+    {
       "user": "0x98f1bda2d45ffaca73fcf2154e9e007871e14934",
       "prizes": {
         "5": [
@@ -2871,14 +2879,6 @@
       "prizes": {
         "5": [
           1013
-        ]
-      }
-    },
-    {
-      "user": "0x0bda59997765a113bea8ca9cba319b35fb287fc8",
-      "prizes": {
-        "4": [
-          75
         ]
       }
     }
