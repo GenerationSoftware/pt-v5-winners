@@ -7,10 +7,11 @@ env:
   CHAIN_ID: 421614
   PRIZE_POOL_ADDRESS: "0x51211a6b7aa15b3f1063f151ec3343898cd7bd75"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
-  CLI_VERSION: "2.0.3"
+  CLI_VERSION: "2.0.6"
   JSON_RPC_URL: ${{ secrets.ARBITRUM_SEPOLIA_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-testnet/603b108303c4f639de5dd96005d0629c4dce1357/deployments/arbitrumSepolia/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-arbitrum-sepolia/version/latest'
+  REMOTE_STATUS_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-winners/refs/heads/main/winners/vaultAccounts'
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
 jobs:

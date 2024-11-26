@@ -7,10 +7,11 @@ env:
   CHAIN_ID: 10
   PRIZE_POOL_ADDRESS: "0xf35fe10ffd0a9672d0095c435fd8767a7fe29b55"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
-  CLI_VERSION: "2.0.5"
+  CLI_VERSION: "2.0.6"
   JSON_RPC_URL: ${{ secrets.OPTIMISM_MAINNET_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/396f04daedc5a38935460ddf47d2f10e9ac1fec6/deployments/optimism/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-optimism/version/latest?source=pooltogether'
+  REMOTE_STATUS_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-winners/refs/heads/main/winners/vaultAccounts'
   NODE_OPTIONS: "--max_old_space_size=32768"
   DEBUG: true
   PRIZE_TIERS_TO_COMPUTE: 0,1,2,3,4,5
@@ -49,7 +50,7 @@ jobs:
         uses: chuckbergeron/executable-wrapper@e19cd743c8f0c6af006f6a25bd6715c770569d72
         continue-on-error: true
         with:
-          run_command: ptv5 utils compileWinners -o ./${{ env.OUTPUT_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }}
+          run_command: ptv5 utils compileWinners -o ./${{ env.OUTPUT_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }} -r ${{ env.REMOTE_URL }}
 
       # 3. Commit
       - name: Commit Optimism Mainnet
