@@ -50,7 +50,7 @@ jobs:
         uses: chuckbergeron/executable-wrapper@e19cd743c8f0c6af006f6a25bd6715c770569d72
         continue-on-error: true
         with:
-          run_command: ptv5 utils compileWinners -o ./${{ env.OUTPUT_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }} -r ${{ env.REMOTE_URL }}
+          run_command: ptv5 utils compileWinners -o ./${{ env.OUTPUT_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }} -r ${{ env.REMOTE_STATUS_URL }} -r ${{ env.REMOTE_STATUS_URL }}
 
       # 3. Commit
       - name: Commit Optimism Mainnet
