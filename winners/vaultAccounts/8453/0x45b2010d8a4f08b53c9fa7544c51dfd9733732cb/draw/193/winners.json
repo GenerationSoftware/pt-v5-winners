@@ -891,6 +891,33 @@
   "0x4dc1de83149c972050cdd7d5ce9a3f75f70e4d8f": [],
   "0x4e42f783db2d0c5bdff40fdc66fcae8b1cda4a43": [
     {
+      "user": "0x15bbcf76110505d3be5a9eb10c63f57f66d20c40",
+      "prizes": {
+        "4": [
+          248
+        ]
+      }
+    },
+    {
+      "user": "0xee25a745cea4e061c7a163396e79ae90ba804040",
+      "prizes": {
+        "4": [
+          38
+        ]
+      }
+    },
+    {
+      "user": "0x0857d7771aa13a0988f7aac9d72bfeea6b69d73c",
+      "prizes": {
+        "4": [
+          7
+        ],
+        "5": [
+          72
+        ]
+      }
+    },
+    {
       "user": "0xe6f43a9dc80d833decf722df5d0a2c7e6013ef07",
       "prizes": {
         "5": [
@@ -960,33 +987,6 @@
           244
         ]
       }
-    },
-    {
-      "user": "0x0857d7771aa13a0988f7aac9d72bfeea6b69d73c",
-      "prizes": {
-        "4": [
-          7
-        ],
-        "5": [
-          72
-        ]
-      }
-    },
-    {
-      "user": "0x15bbcf76110505d3be5a9eb10c63f57f66d20c40",
-      "prizes": {
-        "4": [
-          248
-        ]
-      }
-    },
-    {
-      "user": "0xee25a745cea4e061c7a163396e79ae90ba804040",
-      "prizes": {
-        "4": [
-          38
-        ]
-      }
     }
   ],
   "0x4fd55e86485be48111b0ad17558da666458b01b6": [],
@@ -1009,6 +1009,20 @@
   "0x65d7336a4a95c95f6a598cc7a5d6822c69d82ed0": [],
   "0x663dc65f5372dd952149d45fc3dcd0530285fbfe": [],
   "0x6b5a5c55e9dd4bb502ce25bbfbaa49b69cf7e4dd": [
+    {
+      "user": "0x988ce671760dfe2e178972f1817f72d4fdfcfb78",
+      "prizes": {
+        "3": [
+          56
+        ],
+        "4": [
+          129
+        ],
+        "5": [
+          390
+        ]
+      }
+    },
     {
       "user": "0xeb85bdfd2b0ab696e576b2345aed3a8bf4d2801e",
       "prizes": {
@@ -1137,20 +1151,6 @@
         ],
         "5": [
           913
-        ]
-      }
-    },
-    {
-      "user": "0x988ce671760dfe2e178972f1817f72d4fdfcfb78",
-      "prizes": {
-        "3": [
-          56
-        ],
-        "4": [
-          129
-        ],
-        "5": [
-          390
         ]
       }
     },
