@@ -1,0 +1,75 @@
+name: CronJob - World Mainnet
+on:
+  schedule:
+    - cron: "10,40 * * * *" # “At minute 5 and 35 past every hour from 16 through 23 and every hour from 0 through 4.”
+  push:
+env:
+  CHAIN_ID: 480
+  PRIZE_POOL_ADDRESS: "0x628e42f94b9a7a37e8dc092aca769f30e7536ae0"
+  OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
+  CLI_VERSION: "2.0.6"
+  JSON_RPC_URL: ${{ secrets.WORLD_MAINNET_RPC_URL }}
+  CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/chuckbergeron/varathane/refs/heads/main/test.json'
+  SUBGRAPH_URL: 'https://subgraph.satsuma-prod.com/17063947abe2/g9-software-inc--666267/pt-v5-world/version/v0.0.1/api'
+  REMOTE_STATUS_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-winners/refs/heads/main/winners/vaultAccounts'
+  NODE_OPTIONS: "--max_old_space_size=32768"
+  DEBUG: true
+  PRIZE_TIERS_TO_COMPUTE: 0,1,2,3,4,5
+permissions: write-all
+jobs:
+  runCLI:
+    name: Winners Compute
+    runs-on: ${{ matrix.os }}
+    strategy:
+      max-parallel: 1
+      matrix:
+        node: ["20.11.1"]
+        os: [ubuntu-latest]
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Use Node ${{ matrix.node }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      
+      # -------------------------------------------------------- #
+      # World Mainnet
+      # -------------------------------------------------------- #
+      # 1. Install
+      - name: Install PoolTogether V5 CLI
+        run: |
+          npm install -g @generationsoftware/pt-v5-cli@${{ env.CLI_VERSION }}
+          echo "$(npm -g bin)" >> $GITHUB_PATH
+          
+      # 2. Find depositors, winners, and output them for each vault to JSON files
+      - name: World Mainnet - Compile Winners
+        id: compileWinnersWorld
+        uses: chuckbergeron/executable-wrapper@e19cd743c8f0c6af006f6a25bd6715c770569d72
+        continue-on-error: true
+        with:
+          run_command: ptv5 utils compileWinners -o ./${{ env.OUTPUT_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }} -r ${{ env.REMOTE_STATUS_URL }}
+
+      # 3. Commit
+      - name: Commit World Mainnet
+        if: steps.compileWinnersWorld.outputs.runStatus == 'true'
+        continue-on-error: true
+        run: |
+          git config pull.rebase false
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git pull
+          ls
+          git add ./${{ env.OUTPUT_DIRECTORY_NAME }}
+          git commit -m "Add mainnet winner results for World Mainnet draw #${{ steps.compileWinnersWorld.outputs.drawId }}"
+
+      # 4. Push
+      - name: Push changes (if required)
+        uses: ad-m/github-push-action@master
+        if: steps.compileWinnersWorld.outputs.runStatus == 'true'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+          force: true
