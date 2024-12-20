@@ -1,0 +1,105 @@
+{
+  "chainId": 8453,
+  "prizePoolAddress": "0x45b2010d8A4f08b53c9fa7544C51dFd9733732cb",
+  "vaultAddress": "0x850ec48d2605aad9c3de345a6a357a9a14b8cf1b",
+  "userAddresses": [
+    "0xf9a3856b5368f60f2837c797a993f46c6ea7117d",
+    "0xf80a7327ced2d6aba7246e0de1383ddb57fd4475",
+    "0xb6aeafd822eada55f7c8bbcae4f4ea81a50a92d7",
+    "0x63f1d2984231b4b0740b32be9472e67a5064466d",
+    "0x7692a4436f8252f34258c2bfa846ec5e840d5e55",
+    "0x0e9b063789909565ceda1fba162474405a151e66",
+    "0xa9c937a0d1d22ad79099aea10efa62a270dfc22c",
+    "0x95e7f5704a8b965879495867f0125babdea88b06",
+    "0x4ac381e9eade70a2d20a3cb26564cad17bd785a4",
+    "0xa8078cabce440b0feadd7264adf179d301fcef18",
+    "0x3842d2313df449d11a7bac8652e0cc0edd9ae1a4",
+    "0xd775cf723a32c530b3a65e371710dac10489abc7",
+    "0x45db9d3457c2cb05c4bfc7334a33cee6e19d508f",
+    "0x5f3188b55e0d3320f2ba558fa9f365009998c401",
+    "0x0b58857708a6f84e7ee04beaef069a7e6d1d4a0b",
+    "0x0f709dacc59caa76195f4be75bf60a02547bc86d",
+    "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
+    "0x07c5917860695a351de0bf7c200367619b5ffb68",
+    "0x28458788fb965bcac5f0df629916a3735112dac6",
+    "0xf6fa7c1034315626ef531e679b62b579c8303148",
+    "0x302efb6fd402336659c5e43ff05dbb19010daf6e",
+    "0x6f19da51d488926c007b9ebaa5968291a2ec6a63",
+    "0xddfc1234fd4c788be7725f26ae4a4710ed713043"
+  ],
+  "winners": [
+    {
+      "user": "0xf9a3856b5368f60f2837c797a993f46c6ea7117d",
+      "prizes": {
+        "4": [
+          17
+        ]
+      }
+    },
+    {
+      "user": "0xb6aeafd822eada55f7c8bbcae4f4ea81a50a92d7",
+      "prizes": {
+        "4": [
+          70
+        ],
+        "5": [
+          196,
+          528
+        ]
+      }
+    },
+    {
+      "user": "0xa8078cabce440b0feadd7264adf179d301fcef18",
+      "prizes": {
+        "4": [
+          65,
+          66,
+          129,
+          194
+        ],
+        "5": [
+          300,
+          320,
+          391,
+          425,
+          490,
+          590,
+          839,
+          850,
+          956,
+          995
+        ]
+      }
+    },
+    {
+      "user": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
+      "prizes": {
+        "4": [
+          79
+        ],
+        "5": [
+          64,
+          229,
+          290,
+          714
+        ]
+      }
+    },
+    {
+      "user": "0x28458788fb965bcac5f0df629916a3735112dac6",
+      "prizes": {
+        "4": [
+          193,
+          198
+        ],
+        "5": [
+          5,
+          52,
+          286,
+          403,
+          905
+        ]
+      }
+    }
+  ]
+}
