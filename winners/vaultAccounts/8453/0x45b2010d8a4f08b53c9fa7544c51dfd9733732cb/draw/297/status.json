@@ -1,0 +1,12 @@
+{
+  "status": "SUCCESS",
+  "createdAt": 1741570626667,
+  "updatedAt": 1741572402845,
+  "runtime": 1777,
+  "meta": {
+    "numVaults": 54,
+    "numTiers": 6,
+    "numPrizeIndices": 1365,
+    "numAccounts": 17431
+  }
+}
