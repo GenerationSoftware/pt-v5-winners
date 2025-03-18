@@ -7,7 +7,7 @@ env:
   CHAIN_ID: 84532
   PRIZE_POOL_ADDRESS: "0xc90625047f206f525a811a54bbec05c23e08b58b"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
-  CLI_VERSION: "2.0.6"
+  CLI_VERSION: "2.0.8"
   JSON_RPC_URL: ${{ secrets.BASE_SEPOLIA_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-testnet/fe26460a82048f8b0234efcad6c9dc82901890db/deployments/baseSepolia/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-base-sepolia/version/latest'

@@ -7,7 +7,7 @@ env:
   CHAIN_ID: 11155420
   PRIZE_POOL_ADDRESS: "0x122feca66c2b1ba8fa9c39e88152592a5496bc99"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
-  CLI_VERSION: "2.0.6"
+  CLI_VERSION: "2.0.8"
   JSON_RPC_URL: ${{ secrets.OPTIMISM_SEPOLIA_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-testnet/cba25ed4e65ff6f00a53b3bb984a8648bb19640f/deployments/optimismSepolia/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-op-sepolia/version/latest'

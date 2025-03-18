@@ -7,7 +7,7 @@ env:
   CHAIN_ID: 1
   PRIZE_POOL_ADDRESS: "0x7865d01da4c9ba2f69b7879e6d2483ab6b354d95"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
-  CLI_VERSION: "2.0.6"
+  CLI_VERSION: "2.0.8"
   JSON_RPC_URL: ${{ secrets.ETHEREUM_MAINNET_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/187b051bb1b33131855f647d4c240d468bdfd540/deployments/ethereum/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-ethereum/version/latest?source=pooltogether'
