@@ -1,7 +1,7 @@
 name: CronJob - World Mainnet
 on:
   schedule:
-    - cron: "10,40 * * * *" # “At minute 5 and 35 past every hour from 16 through 23 and every hour from 0 through 4.”
+    - cron: "10 * * * *" # “At minute 10 past every hour.”
   push:
 env:
   CHAIN_ID: 480
