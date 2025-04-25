@@ -7,7 +7,7 @@ env:
   CHAIN_ID: 480
   PRIZE_POOL_ADDRESS: "0x99ffb0a6c0cd543861c8de84dd40e059fd867dcf"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
-  CLI_VERSION: "2.0.8"
+  CLI_VERSION: "2.1.0"
   JSON_RPC_URL: ${{ secrets.WORLD_MAINNET_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/8e1432b70c1f135966c1b70917675cd586dda7be/deployments/world/contracts.json'
   SUBGRAPH_URL: 'https://subgraph.satsuma-prod.com/17063947abe2/g9-software-inc--666267/pt-v5-world/api'
