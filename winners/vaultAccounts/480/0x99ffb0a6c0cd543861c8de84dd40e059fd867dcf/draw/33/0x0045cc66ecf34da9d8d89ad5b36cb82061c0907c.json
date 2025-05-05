@@ -1,0 +1,157 @@
+{
+  "chainId": 480,
+  "prizePoolAddress": "0x99ffb0a6c0cd543861c8de84dd40e059fd867dcf",
+  "vaultAddress": "0x0045cc66ecf34da9d8d89ad5b36cb82061c0907c",
+  "userAddresses": [
+    "0x72e16da926beba6747fcdf18a9ed430356c1919d",
+    "0x98f1bda2d45ffaca73fcf2154e9e007871e14934",
+    "0xcc22f7f6a8296ed44f0f0e758374675120909177",
+    "0x62ebfd9c156f2893d606491aa8ab8420e23dc32d",
+    "0xf42b28742b8d23ec0223ddc3581f691efcf5675c",
+    "0xa38445311ccd04a54183cdd347e793f4d548df3f",
+    "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
+    "0xf8445b5ee5167c5d5ab91e29dc542851295f9b17",
+    "0x1a3454a29ca49d8a80b1710fcf9df9f2d1f43d0a",
+    "0x888c1b86000bbbdb2223a0b89e3c82aec9d94297",
+    "0xa8078cabce440b0feadd7264adf179d301fcef18",
+    "0xf6d968f4941aaf500c65352b8e7363fd9e2eb512",
+    "0x9f36a6bb398118bdcd5b1bc3343d8feb6d7d02b9",
+    "0xc15ab8dd7daeea5f1aa3b56507cac8a877e21b15",
+    "0x28458788fb965bcac5f0df629916a3735112dac6",
+    "0x80cef8f224deb7cbbfbb6b1afb6d89652e933d0f",
+    "0x175c4f84f41bd3dc37a42d8260f57bc5475e9753",
+    "0x1496294adcc04f835994d5c80901c7d98061cf16",
+    "0x639b7938260ffad9aaff87c84350382c0e4762c9",
+    "0x505aa104869783f1ed411339862a54041eb57162",
+    "0xa7329fd51b2dc832f92a1ec5e05cc35d4d1a095e"
+  ],
+  "winners": [
+    {
+      "user": "0xf6d968f4941aaf500c65352b8e7363fd9e2eb512",
+      "prizes": {
+        "2": [
+          1
+        ],
+        "5": [
+          34,
+          110,
+          264,
+          482,
+          493,
+          960
+        ]
+      }
+    },
+    {
+      "user": "0x62ebfd9c156f2893d606491aa8ab8420e23dc32d",
+      "prizes": {
+        "4": [
+          253
+        ],
+        "5": [
+          330,
+          332
+        ]
+      }
+    },
+    {
+      "user": "0xcc22f7f6a8296ed44f0f0e758374675120909177",
+      "prizes": {
+        "5": [
+          108,
+          119,
+          200,
+          588,
+          661
+        ]
+      }
+    },
+    {
+      "user": "0xa38445311ccd04a54183cdd347e793f4d548df3f",
+      "prizes": {
+        "5": [
+          182,
+          216,
+          570,
+          629,
+          742,
+          883,
+          894,
+          968
+        ]
+      }
+    },
+    {
+      "user": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
+      "prizes": {
+        "5": [
+          89,
+          119,
+          175,
+          330,
+          458,
+          556,
+          607,
+          818,
+          973,
+          985
+        ]
+      }
+    },
+    {
+      "user": "0xf8445b5ee5167c5d5ab91e29dc542851295f9b17",
+      "prizes": {
+        "5": [
+          274
+        ]
+      }
+    },
+    {
+      "user": "0xa8078cabce440b0feadd7264adf179d301fcef18",
+      "prizes": {
+        "3": [
+          12
+        ],
+        "5": [
+          80,
+          85,
+          264,
+          406,
+          446,
+          577,
+          604,
+          955
+        ]
+      }
+    },
+    {
+      "user": "0x80cef8f224deb7cbbfbb6b1afb6d89652e933d0f",
+      "prizes": {
+        "5": [
+          620
+        ]
+      }
+    },
+    {
+      "user": "0x505aa104869783f1ed411339862a54041eb57162",
+      "prizes": {
+        "5": [
+          156,
+          467,
+          828
+        ]
+      }
+    },
+    {
+      "user": "0xa7329fd51b2dc832f92a1ec5e05cc35d4d1a095e",
+      "prizes": {
+        "5": [
+          227,
+          428,
+          567,
+          779
+        ]
+      }
+    }
+  ]
+}
