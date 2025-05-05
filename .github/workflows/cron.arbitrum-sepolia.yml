@@ -1,7 +1,7 @@
 name: CronJob - Arbitrum Sepolia
 on:
   schedule:
-    - cron: "5 */6 * * *" # ie. 6:05am, 12:05pm, 6:05pm, etc.
+    - cron: "5 */2 * * *" # ie. 2:05am, 4:05pm, 6:05pm, etc.
   push:
 env:
   CHAIN_ID: 421614

@@ -1,7 +1,7 @@
 name: CronJob - Base Mainnet
 on:
   schedule:
-    - cron: "5,35 16-23,0-4 * * *" # “At minute 5 and 35 past every hour from 16 through 23 and every hour from 0 through 4.”
+    - cron: "5 */2 * * *" # ie. 2:05am, 4:05pm, 6:05pm, etc.
   push:
 env:
   CHAIN_ID: 8453

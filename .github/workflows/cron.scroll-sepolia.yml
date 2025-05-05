@@ -1,7 +1,7 @@
 name: CronJob - Scroll Sepolia
 on:
   schedule:
-    - cron: "30 */1 * * *" # ie. 6:30am, 7:00pm, 7:30pm, etc.
+    - cron: "5 */2 * * *" # ie. 2:05am, 4:05pm, 6:05pm, etc.
   push:
 env:
   CHAIN_ID: 534351

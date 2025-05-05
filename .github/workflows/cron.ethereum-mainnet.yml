@@ -1,7 +1,7 @@
 name: CronJob - Ethereum Mainnet
 on:
   schedule:
-    - cron: "5 */1 * * *" # “At minute 5 past every hour”
+    - cron: "5 */2 * * *" # ie. 2:05am, 4:05pm, 6:05pm, etc.
   push:
 env:
   CHAIN_ID: 1
