@@ -1,7 +1,20 @@
 {
-  "status": "SUCCESS",
-  "createdAt": 1757614249165,
-  "updatedAt": 1757614249417,
+  "status": "FAILURE",
+  "createdAt": 1757621421023,
+  "updatedAt": 1757621421430,
   "runtime": 1,
-  "meta": {}
+  "error": {
+    "reason": "bad result from backend",
+    "code": "SERVER_ERROR",
+    "method": "call",
+    "params": {
+      "transaction": {
+        "to": "0xe32e5E1c5f0c80bD26Def2d0EA5008C107000d6A",
+        "data": "0x49421996",
+        "accessList": null
+      },
+      "blockTag": "latest"
+    },
+    "error": {}
+  }
 }
