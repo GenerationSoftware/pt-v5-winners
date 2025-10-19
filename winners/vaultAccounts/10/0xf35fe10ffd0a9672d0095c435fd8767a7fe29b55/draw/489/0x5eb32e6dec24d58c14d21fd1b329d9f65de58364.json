@@ -1,0 +1,24 @@
+{
+  "chainId": 10,
+  "prizePoolAddress": "0xf35fe10ffd0a9672d0095c435fd8767a7fe29b55",
+  "vaultAddress": "0x5eb32e6dec24d58c14d21fd1b329d9f65de58364",
+  "userAddresses": [
+    "0xb56d699b27ca6ee4a76e68e585999e552105c10f",
+    "0xa98d99954feb7bc7c9406f017fa1f611ddf2a100",
+    "0x4c423c83df60331d5c9c93f97238c5bbda3a5863",
+    "0xe82343a116d2179f197111d92f9b53611b43c01c",
+    "0xa95656995348af2cdff52e0541a5df375fdd3a84",
+    "0xf8445b5ee5167c5d5ab91e29dc542851295f9b17",
+    "0x465bb47318f93c9166ff68eb9685429d2e6c13fd"
+  ],
+  "winners": [
+    {
+      "user": "0xa95656995348af2cdff52e0541a5df375fdd3a84",
+      "prizes": {
+        "5": [
+          568
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "chainId": 10,
+  "prizePoolAddress": "0xf35fe10ffd0a9672d0095c435fd8767a7fe29b55",
+  "vaultAddress": "0x5c458df58c2a4253f07ae416e8828ccbdbb2974a",
+  "userAddresses": [
+    "0xf2076f10ad3b3045507f959eb4277cb74d8c5942"
+  ],
+  "winners": [
+    {
+      "user": "0xf2076f10ad3b3045507f959eb4277cb74d8c5942",
+      "prizes": {
+        "2": [
+          7
+        ]
+      }
+    }
+  ]
+}
