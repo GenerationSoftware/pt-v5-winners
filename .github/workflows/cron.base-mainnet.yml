@@ -10,7 +10,7 @@ env:
   CLI_VERSION: "2.0.8"
   JSON_RPC_URL: ${{ secrets.BASE_MAINNET_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/bc84c3f5e1d9703372ae7f9baf584bab42f47b27/deployments/base/contracts.json'
-  SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-base/version/latest'
+  SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/41211/pt-v5-base/version/latest'
   REMOTE_STATUS_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-winners/refs/heads/main/winners/vaultAccounts'
   NODE_OPTIONS: "--max_old_space_size=32768"
   DEBUG: true
