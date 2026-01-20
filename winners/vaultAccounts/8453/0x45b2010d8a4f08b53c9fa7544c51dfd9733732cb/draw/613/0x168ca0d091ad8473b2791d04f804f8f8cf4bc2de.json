@@ -1,0 +1,42 @@
+{
+  "chainId": 8453,
+  "prizePoolAddress": "0x45b2010d8A4f08b53c9fa7544C51dFd9733732cb",
+  "vaultAddress": "0x168ca0d091ad8473b2791d04f804f8f8cf4bc2de",
+  "userAddresses": [
+    "0x0d51a33975024e8afc55fde9f6b070c10aa71dd9",
+    "0xdceb0bb3311342e3ce9e49f57affce9deac40ba1"
+  ],
+  "winners": [
+    {
+      "user": "0xdceb0bb3311342e3ce9e49f57affce9deac40ba1",
+      "prizes": {
+        "4": [
+          70,
+          127,
+          200
+        ],
+        "5": [
+          45,
+          190,
+          236,
+          278,
+          320,
+          375,
+          399,
+          400,
+          415,
+          532,
+          609,
+          630,
+          677,
+          694,
+          768,
+          842,
+          855,
+          904,
+          993
+        ]
+      }
+    }
+  ]
+}
