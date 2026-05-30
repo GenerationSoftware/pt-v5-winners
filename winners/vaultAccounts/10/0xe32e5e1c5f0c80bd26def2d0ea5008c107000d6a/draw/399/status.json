@@ -1,7 +1,16 @@
 {
-  "status": "SUCCESS",
-  "createdAt": 1780166086811,
-  "updatedAt": 1780166086996,
+  "status": "FAILURE",
+  "createdAt": 1780173076957,
+  "updatedAt": 1780173077166,
   "runtime": 1,
-  "meta": {}
+  "error": {
+    "response": {
+      "error": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "status": 503,
+      "headers": {}
+    },
+    "request": {
+      "query": "\n    {\n      vaults {\n        id\n      }\n    }\n  "
+    }
+  }
 }
