@@ -1,0 +1,9 @@
+{
+  "chainId": 42161,
+  "prizePoolAddress": "0x52e7910c4c287848c8828e8b17b8371f4ebc5d42",
+  "vaultAddress": "0x8be9a47eb2d4bc7014fc608dd4055749897ce113",
+  "userAddresses": [
+    "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+  ],
+  "winners": []
+}
